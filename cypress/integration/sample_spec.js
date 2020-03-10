@@ -12,5 +12,6 @@ describe('first test', ()=>{
 describe('visit a page', ()=>{
     it('visit', ()=>{
        cy.visit('https://example.cypress.io');
+       cy.contains('type');
     })
 });
