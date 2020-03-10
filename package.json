@@ -1,0 +1,23 @@
+{
+  "name": "cypress-getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open":"cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyejineee/cypress-getting-started.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyejineee/cypress-getting-started/issues"
+  },
+  "homepage": "https://github.com/hyejineee/cypress-getting-started#readme",
+  "devDependencies": {
+    "cypress": "^4.1.0"
+  }
+}
