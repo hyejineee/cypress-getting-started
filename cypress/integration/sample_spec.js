@@ -7,3 +7,10 @@ describe('first test', ()=>{
         expect(true).to.equal(false);
     })
 });
+
+
+describe('visit a page', ()=>{
+    it('visit', ()=>{
+       cy.visit('https://example.cypress.io');
+    })
+});
